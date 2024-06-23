@@ -1,0 +1,37 @@
+---
+import Layout from "../../layouts/Layout2.astro";
+import { Image } from 'astro:assets';
+import myImage from '../../../public/photo/photo.png'
+import myImage2 from '../../../public/photo/image.png' // La imagen es 1600x900
+---
+<Layout title='Descargar bot 1. forma | Bot vDx'>
+    <div class="text-lime-200">
+        <h1>Aqui podras descargar el bot de discord</h1>
+        <h1>Hoy vamos a instalar el bot de discord de vDx en nuestro dispositivo</h1>
+        <h1>Para ello, vamos a seguir los siguientes pasos:</h1>
+        <h2>1. Descargar el bot</h2>
+        <main>Para descargar el bot se puede hacer de muchas formas</main>
+        <main>Vamos a utilizar una forma simple</main>
+        <main>No vamos a necesitar nada</main>
+        <main>Nos vamos al boton que dice Repo de git</main>
+        <Image src={myImage} alt="" class="mi-clase" />
+        <h2>2. Descargar el bot</h2>
+        <main>Despues al entrar al repo de github lo descargamos</main>
+        <Image src={myImage2} alt="" class="mi-clase" />
+        <main>Despues lo descomprimimos y ya estara</main>
+        <main>Y ya estara Adios</main>
+        </div>
+</Layout>
+<style>
+    main{
+      font-size: 1.25rem;
+      }
+    h1 {
+      font-size: 2.25rem;
+      text-align: center;
+      font-weight: 900;
+      }
+    h2 {
+      font-size: 2.25rem;
+      }
+      </style>
